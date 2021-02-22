@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen 
+and (max-width : 414px)  {
+	
+	.left-container {
+	z-index: -1;	
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-color: blueviolet;
+	float: left;
+}
+
+
+
+	.right-container {
+	z-index: 1;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	float: left;
+	align-content: center;
+	opacity: 1;
+	overflow: hidden;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: none;
+		
+}
+	
+	.second-grid {
+	z-index: 2;
+	width: 311px;
+	height: 357px;	
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;	
+	position: absolute;	
+
+	
+	/* Chrome and Safari */
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	/* Firefox */
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	-moz-border-radius-bottomleft:10px;
+	/* Standard Syntax */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
+}
+
+.first-grid {
+	z-index: 3;
+	margin-top: 140px;
+	width: 290px;
+	padding: 20px;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	background-color: none;
+	flex-direction: column;
+	
+}
+
+	
+	
+.welcome {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-variant:normal;
+	font-style: normal;
+	font-stretch:normal;
+	font-weight: 200;
+	font-size: 24px;
+	color: #383E71;
+	width: 100%;
+	height: auto;
+	top: 1px;
+		
+}
+	
+	
+.msg-intro {
+	font-family: 'Montserrat', san-serif;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+	color: #989FDB;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+	
+	
+.block-one {
+	width: 90%;
+	height: auto;
+	align-content: flex-start;
+	align-items: flex-start;
+	text-align: left; 
+	padding: 10px;
+	margin-top: 5px;
+		
+}
+	
+		
+.block-button {
+	width: 90%;
+	height: auto;
+	align-content: center;
+	align-items: center;
+	text-align: center; 
+	padding: 10px;
+	margin-top: 5px;
+		
+}
+	
+	
+	
+.input-button {
+	width: 168px;
+	height: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 43px;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	background-image: linear-gradient( to right, #9D25B0, #383E71);
+	border-radius: 10px;
+}
+
+}

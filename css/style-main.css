@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+	margin: 0 auto;
+	
+}
+
+.main-container {
+	z-index: 0;
+	width:100%;
+	height:100vh;
+    flex-direction: column;
+	background-color: none;
+}
+
+.left-container {
+	flex: 1;
+	width: 60%;
+	height: 100vh;
+	position: relative;
+	background-color: blueviolet;
+	float: left;
+}
+
+.img-background {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(105,57,153,0), rgba(19,5,37,1)), url("https://s3-alpha-sig.figma.com/img/da71/def9/a4b7bbf328760a46b71373be48960a50?Expires=1614556800&Signature=goIwgoGJO77DWot3ATLvyedwIDVcDYewUTQftRZHGBpVQXAPuk1g7EkDqvh3l3cy3U8W-rgQqZIVedqQDfzVGZYdQ94CFsZQCqr~gruYK8w4RefoTmEPR5iuIEg6JKOM2mixaE4lpzV6oE0-3~csUlnDCdyTkMx3-5Nw0VdZVWBoj1Th7Z1p3T2XK~YE6o5W7GYzQmPu4JuCUuj3wnr84SrJXz717xFjkZYskGkGnl-Q9MrzNDTomHhYDf~7iEYQnidcdxf8gRiUmdsogJKUgUW7E98PDdydfhDcpoQ0Uwx-ExRyS1iMDRWlwVVERborRV9qerYaGdMQQC6C6FF57A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+
+.right-container {
+	z-index: 1;
+	width: 40%;
+	height: 100vh;
+	position: relative;
+	background-color: none;
+	float: left;
+	align-content: center;
+	opacity: 1;
+	overflow: hidden;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.second-grid {
+	z-index: 2;
+	margin-left: auto;
+	margin-right: auto;
+	
+	/* Chrome and Safari */
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	/* Firefox */
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	-moz-border-radius-bottomleft:10px;
+	/* Standard Syntax */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
+}
+
+.first-grid {
+	z-index: 3;
+	width: 60%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: none;
+	position: absolute;
+	flex-direction: column;
+	padding: 15px;
+	
+}
+
+.welcome {
+	font-family: 'Montserrat', sans-serif;
+	font-variant:normal;
+	font-style: normal;
+	font-stretch:normal;
+	font-weight: 200;
+	font-size: 40px;
+	color: #383E71;
+	width: 100%;
+	height: auto;
+	top: 1px;
+		
+}
+
+.msg-intro {
+	font-family: 'Montserrat', san-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #989FDB;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+
+.msgerrorr {
+	font-family: 'Montserrat', san-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: red;
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+	display: none;
+}
+
+
+.block-one {
+	width: 100%;
+	height: auto;
+	align-content: flex-start;
+	align-items: flex-start;
+	text-align: left; 
+	padding: 10px;
+	margin-top: 10px;
+		
+}
+
+.title-block-one {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+	font-size: 10px;
+	font-weight: 200;
+	color: #383E71;
+	
+}
+
+.input {
+	width: 98%;
+	height: 43px;
+	border: solid 1px #989FDB;
+	outline: none;
+	padding: 5px;
+	text-align: left;
+	font-size: 12px;
+	line-height: 43px;
+	font-weight: 200;
+	color: #989FDB;
+	border-radius: 10px;
+	
+}
+
+.input.-error {
+	border: solid 1px red;
+}
+
+
+.input-button {
+	width: 100%;
+	height: 43px;
+	line-height: 43px;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	background-image: linear-gradient( to right, #9D25B0, #383E71);
+	border-radius: 10px;
+}
+
+
+		
+.block-button {
+	width: 100%;
+	height: auto;
+	align-content: center;
+	align-items: center;
+	text-align: center; 
+	padding: 10px;
+	margin-top: 10px;
+		
+}
+
+
+.msg-end {
+	text-align: center;
+	font-family: 'Montserrat', san-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #989FDB;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+} 
+
+a {
+  color: #9626AC;
+}
+
+
+

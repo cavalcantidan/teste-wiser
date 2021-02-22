@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Smartphones & Tablets Portraid*/
+
+@media only screen 
+and (max-width : 768px)  {
+	
+	.left-container {
+	flex: 1;
+	width: 40%;
+	height: 100vh;
+	position: relative;
+	background-color: blueviolet;
+	float: left;
+}
+
+
+
+.right-container {
+	z-index: 1;
+	width: 60%;
+	height: 100vh;
+	position: relative;
+	background-color: none;
+	float: left;
+	align-content: center;
+	align-items: center;
+	opacity: 1;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+	
+	
+.first-grid {
+	z-index: 3;
+	width: 297px;
+	height: 70%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: none;
+	flex-direction: column;
+	float: left;
+	padding: 15px;
+	
+}
+
+
+}
+
+
